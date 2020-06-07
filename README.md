@@ -1,6 +1,6 @@
 Dynamic Update DNS for namesilo.
 ===============
-Use namesilo API and parsing XML response to update the DNS in a given time interval written in python.
+Use namesilo API and parsing XML response to update the DNS in a given time interval written in Python.
 
 How to Use : 
 ---------------
