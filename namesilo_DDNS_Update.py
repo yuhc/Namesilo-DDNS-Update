@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# Author: Tsukimita @ github
+# Author: 5M1Sec @ github
 # Date 2020/01/26
 # Usage: DDNS updating for namesilo
 
