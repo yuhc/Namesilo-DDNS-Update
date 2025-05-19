@@ -104,7 +104,7 @@ def check():
     if currentIP != targetIP:
         update(currentIP, recordID,targetDomain,targetIP )
     else:
-	file = open("DDNS_Update.log", "a+")
+        file = open("DDNS_Update.log", "a+")
         ts = time.time()
         timestamp = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
         file.writelines(timestamp + "\n")
@@ -119,6 +119,7 @@ host = conf.get('DEFAULT', 'host')
 apiKey = conf.get('DEFAULT', 'api_key')
 check_interval = conf.getint('DEFAULT', 'check_interval')
 # Begin checking
-while True:
-    check()
-    time.sleep(check_interval)
+check()
+# while True:
+#     check()
+#     time.sleep(check_interval)
